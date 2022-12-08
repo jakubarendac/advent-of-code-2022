@@ -1,9 +1,8 @@
 use std::fs;
 
-const FILE_PATH: &str = "day_01/resources/input.txt";
+const FILE_PATH: &str = "src/day_01/resources/input.txt";
 
 pub fn execute() {
-    // raw file text content
     let content = fs::read_to_string(FILE_PATH).expect("Should have been able to read the file");
 
     // vector of strings each representing one elf
