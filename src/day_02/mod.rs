@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
 use std::fs;
 
 const FILE_PATH: &str = "src/day_02/resources/input.txt";
