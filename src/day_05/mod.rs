@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
 use lazy_static::lazy_static;
 use regex::Regex;
 use std::{cell::Cell, fs, ops::Not};
